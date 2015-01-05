@@ -44,6 +44,7 @@ public class ExampleActivity extends Activity {
     if (!(view instanceof TextView)) {
       return;
     }
+
     TextView textView = (TextView) view;
     for (final Drawable drawable : textView.getCompoundDrawables()) {
       if (drawable instanceof Animatable) {
