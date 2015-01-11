@@ -1,6 +1,6 @@
 AnimatedVectorDrawable
 ----------------------
-
+![vector](https://github.com/AndroidBase/animated-vector-drawable/blob/master/vector.gif)
 Sample code for [AnimatedVectorDrawable][1] for Android.
 
   * Example from [official documentation][1]
