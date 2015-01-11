@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+/**
+ * vector 动画示例
+ */
 public class ExampleActivity extends Activity {
   private ViewGroup container;
 

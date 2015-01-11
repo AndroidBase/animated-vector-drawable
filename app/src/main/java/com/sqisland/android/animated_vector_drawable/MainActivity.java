@@ -16,9 +16,13 @@ public class MainActivity extends ListActivity {
     super.onCreate(savedInstanceState);
 
     final List<Demo> demos = Arrays.asList(
+
         new Demo(this, ExampleActivity.class, R.string.example_from_documentation),
+            //时钟旋转
         new Demo(this, RotateActivity.class, R.string.clock),
+            //笑脸
         new Demo(this, PathMorphActivity.class, R.string.smiling_face),
+            //心形文字
         new Demo(this, FillInHeartActivity.class, R.string.fill_in_heart)
     );
     ArrayAdapter<Demo> adapter = new ArrayAdapter<Demo>(
